@@ -1095,7 +1095,7 @@ ol ul {
   background: linear-gradient(270deg, var(--color-secondary) 0%, var(--color-primary) 100%) !important;
 }
 .rbt-page-banner-wrapper .rbt-banner-image::after, .bg-gradient-9::after {
-  background: linear-gradient(white 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(rgb(255, 255, 255) 0%, rgb(7, 184, 30) 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -12009,6 +12009,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 .mainbar-row {
   display: flex;
   justify-content: space-between;
+
 }
 .mainbar-row .rbt-main-navigation {
   flex: 1;
@@ -12031,7 +12032,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   z-index: 99;
 }
 .rbt-header .logo a img {
-  max-height: 50px;
+  max-height: 91px;
   object-fit: cover;
 }
 @media only screen and (max-width: 575px) {
@@ -12082,10 +12083,10 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   box-shadow: var(--shadow-1);
 }
 .rbt-header .rbt-header-wrapper.color-white-variation .mainmenu-nav .mainmenu > li > a {
-  color: var(--color-white);
+  color: var(--color-green);
 }
 .rbt-header .rbt-header-wrapper.color-white-variation .quick-access li a {
-  color: var(--color-white);
+  color: var(--color-green);
 }
 .rbt-header .rbt-header-wrapper.color-white-variation .quick-access li.account-access::after {
   opacity: 0.5;
@@ -12095,13 +12096,13 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   box-shadow: var(--shadow-5);
 }
 .rbt-header .rbt-header-wrapper.color-white-variation .hamberger .hamberger-button {
-  color: var(--color-white);
+  color: var(--color-green);
 }
 .rbt-header .rbt-header-wrapper.bg-color-darker {
   background-color: var(--color-darker);
 }
 .rbt-header .rbt-header-wrapper.bg-color-darker .mainmenu-nav .mainmenu > li > a {
-  color: var(--color-white);
+  color: var(--color-green);
 }
 .rbt-header .rbt-header-wrapper.height-50 .mainmenu-nav .mainmenu > li > a {
   height: 50px;
@@ -12203,7 +12204,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 }
 
 .side-nav-opened .rbt-header.rbt-transparent-header .rbt-header-wrapper:not(.bg-not-transparent) {
-  background: #fff !important;
+  background: green (0, 0%, 100%) !important;
 }
 
 .rbt-header .rbt-header-wrapper.header-transparent .mainmenu-nav .mainmenu li.has-dropdown .submenu {
@@ -12236,11 +12237,10 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   display: flex;
   align-items: center;
   height: 80px;
-  line-height: 80px;
   transition: 0.3s;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .rbt-header .mainmenu-nav .mainmenu > li > a {
+  .rbt-header .mainmenu-nav  {
     padding: 0 10px;
   }
 }
